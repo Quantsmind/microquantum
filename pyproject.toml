@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "microquantum"
+version = "0.1.0"
+description = "A simple Python SDK for basic quantum computing operations."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["numpy>=1.20.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
